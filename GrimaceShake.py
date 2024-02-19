@@ -16,6 +16,21 @@ def listOfGasStations():
     gasStationsNearby = random.choice(gasStation)
     return gasStationsNearby
 
+#Fuction will call the gasLevelGauge to determine our gas level then find a close gas station
+#by calling the list of gas stations function if we are on low or quarter tank
+def gasLevelAlert():
+    milesToGasStationsLow = random.uniform(1,25)
+    milesToGasStationsQuarterTank = random.uniform(25.1,50)
+    #gasLevelGauge = gasLevelGauge()
+    print(milesToGasStationsLow)
+    print(milesToGasStationsQuarterTank)
 
-print(gasLevelGauge())
-print(listOfGasStations())
+gasLevelAlert()
+
+
+
+
+
+
+
+
