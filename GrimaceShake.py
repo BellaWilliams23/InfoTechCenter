@@ -24,6 +24,7 @@ while x != 20:
         ellipsis = 0
     if x == 20:
         print("\n\nOperating System Booted Up - Retina Scanned - Access Granted!\n")
+        sleep(0.50)
 
 # Gasoline branch starts here
 print("*************************************************************")
